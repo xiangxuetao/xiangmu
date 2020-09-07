@@ -1,0 +1,20 @@
+/*设置导航条的最小高度*/
+header .navbar{
+	min-height: 70px;
+	padding: 20px 0px;
+	background-color: white;
+}
+/*设置导航条中的默认样式*/
+.navbar .nav .active a{
+	border: 1px solid #E48907;
+	background: none !important;
+}
+/*解决导航条在移动端变窄的问题*/
+ul.navbar-nav{
+	
+}
+@media only screen and (max-width: 768px) {
+	ul.navbar-nav{
+		width: 100%;
+}
+}
